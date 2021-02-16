@@ -6,12 +6,13 @@ import { POKEMONS } from './mock-pokemon';
 
 @Component({
     selector: 'pokemon-app',
-    template: `<h1>Liste de pokémons</h1>`,
+    templateUrl: './app/app.component.html',
 })
 export class AppComponent implements OnInit {
     private pokemons: Pokemon[];
+    private title: string = 'Pokémons';
 
-    ngOnInit() {
+    ngOnInit () {
         this.pokemons = POKEMONS;
     }
 
