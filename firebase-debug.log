@@ -1,0 +1,17 @@
+[debug] [2021-03-31T13:33:01.473Z] ----------------------------------------------------------------------
+[debug] [2021-03-31T13:33:01.475Z] Command:       /Users/antoinegoncalves/.nvm/versions/node/v10.17.0/bin/node /Users/antoinegoncalves/.nvm/versions/node/v10.17.0/bin/firebase deploy
+[debug] [2021-03-31T13:33:01.476Z] CLI Version:   9.8.0
+[debug] [2021-03-31T13:33:01.476Z] Platform:      darwin
+[debug] [2021-03-31T13:33:01.476Z] Node Version:  v10.17.0
+[debug] [2021-03-31T13:33:01.477Z] Time:          Wed Mar 31 2021 15:33:01 GMT+0200 (GMT+02:00)
+[debug] [2021-03-31T13:33:01.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-31T13:33:01.488Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-31T13:33:01.489Z] > authorizing via signed-in user
+[debug] [2021-03-31T13:33:01.489Z] [iam] checking project pokemon-app-1410akl for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-03-31T13:33:01.491Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-31T13:33:01.491Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-31T13:33:01.765Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 31 Mar 2021 13:33:01 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-31T13:33:01.800Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pokemon-app-1410akl:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
